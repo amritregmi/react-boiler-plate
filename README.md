@@ -30,3 +30,7 @@
    $ serve -s build (run that build folder)
 
    $ serve -s build -p 8000 (to run in custom port)
+
+5. Branches 
+   1. version1 (fist prototype version)
+   
