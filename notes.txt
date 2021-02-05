@@ -1,0 +1,19 @@
+Deploy App 
+
+  $npm run build 
+    (this creates an optimized version of our app in /build folder)
+    * This build folder is our static assets 
+    * This is what we Deploy
+  
+  TRY LOCALLY TO RUN THE BUILD FOLDER 
+    $ npm install -g serve 
+    $ serve -s build (serve build folder with static server)
+      OR 
+    $serve -s build -p 8000
+
+
+SNIPPETS 
+  imr 
+  rafce 
+  
+

@@ -1,0 +1,10 @@
+footer {
+  text-align: center;
+  animation: moveInBottom 1s ease-out;
+  p {
+    display: inline-block;
+  }
+  .createdBy {
+    padding: 2rem;
+  }
+}

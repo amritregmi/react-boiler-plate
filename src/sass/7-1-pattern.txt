@@ -1,0 +1,28 @@
+
+1. abstracts 
+  `contains no actual styles,`
+
+2. vendors 
+  `contains any third-party stylesheets a project uses`
+
+3. base 
+  `contains boilerplate used throughout an entire site. 
+    This includes project-wide typography styles, 
+    and stylesheets that universally reset or normalize default CSS.
+  `
+4. layout
+  `contains styles for different aspects of the site's structural layout 
+    (think of areas like nav bars, headers, footers, etc.)
+  `
+5. components 
+  `re like "mini" layouts. Styles for small, 
+    reusable pieces of the site should reside here (think buttons, forms, profile pictures, etc.)
+  `
+6. pages 
+  `is where page-specific styles reside`
+
+7. themes 
+  `is used whenever a site has multiple themes
+   For instance, 
+    the example project above includes both admin and default themes
+  `

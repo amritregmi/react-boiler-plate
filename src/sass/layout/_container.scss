@@ -1,0 +1,11 @@
+.container {
+  max-width: 50rem;
+  margin: 3rem auto;
+  overflow: auto;
+  min-height: 30rem;
+  border: 2px solid $color-primary;
+  @include customBorderShadow-1;
+  padding: 4rem;
+  border-radius: 1rem;
+  background-color: $color-grey-light-1;
+}

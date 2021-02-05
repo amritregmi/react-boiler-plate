@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+@import 'abstracts/animations';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/button';
+@import 'components/header';
+@import 'components/addTask';
+@import 'components/task1';
+@import 'components/Footer';
+@import 'components/forms';
+
+@import 'layout/container';

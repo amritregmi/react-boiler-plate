@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "ecmaVersion": 12
+  },
+  "rules": {
+    // "quotes": ["error", "double"],
+    "no-unused-vars": "warn", // warning for unused variable
+    "arrow-body-style": ["error", "always"], // can use => {}
+    "no-console": "off", // we can do console.log
+    "class-methods-use-this": "off", //checks if this is valid
+    "spaced-comment": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prop-types": "off", // TURN ON LATER
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      {
+        "labelComponents": ["CustomLabel"],
+        "labelAttributes": ["inputLabel"],
+        "controlComponents": ["CustomInput"],
+        "assert": "both",
+        "depth": 3
+      }
+    ]
+  }
+}
