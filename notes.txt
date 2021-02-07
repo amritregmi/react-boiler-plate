@@ -17,3 +17,27 @@ SNIPPETS
   rafce 
   
 
+test_data 
+{
+  "tasks": [
+    {
+      "id": 3,
+      "text": "Chips",
+      "description": "Smiths",
+      "reminder": false,
+      "complete": false
+    },
+    {
+      "text": "Drinks",
+      "description": "Coke, Juice",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "text": "Milk",
+      "description": "Full Cream",
+      "reminder": false,
+      "id": 5
+    }
+  ]
+}

@@ -13,7 +13,6 @@ const AddTask = ({ onAdd }) => {
     // input field cannot be empty and no spaces
     if (!text || text.trim() === '') {
       setValidInput(false)
-
       return
     }
 

@@ -44,3 +44,12 @@
       - version_detail/version1
         . screen_recording.mov(download the project and run the video to see details)
         . version2.png (open to see how it looks)
+
+   3. version3 - Shopping Cart
+
+      - version_detail/version1
+        . screen_recording.mov(download the project and run the video to see details)
+        . version2.png (open to see how it looks)
+
+      - Backed server added (json-server)
+      - Features added

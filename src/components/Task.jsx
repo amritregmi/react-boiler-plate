@@ -5,7 +5,7 @@ import { FaTimes, FaBell, FaCheck } from 'react-icons/fa'
 const Task = ({ task, onDelete, onToggle, onComplete }) => {
   return (
     <div className={`task ${task.reminder ? 'task--shake' : ''}`}>
-      <h3 className={task.complete && 'task__cross'}>
+      <h3 className={task.complete ? 'task__cross' : undefined}>
         <span>{task.text}</span>
         <FaBell
           onClick={() => {
@@ -28,7 +28,9 @@ const Task = ({ task, onDelete, onToggle, onComplete }) => {
           }}
         />
       </h3>
-      <p className={task.complete && 'task__cross'}>{task.description}</p>
+      <p className={task.complete ? 'task__cross' : undefined}>
+        {task.description}
+      </p>
     </div>
   )
 }
