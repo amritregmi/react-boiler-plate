@@ -31,6 +31,16 @@
 
    $ serve -s build -p 8000 (to run in custom port)
 
-5. Branches 
-   1. version1 (fist prototype version)
-   
+5. Branches
+
+   1. version1 - Task Tracker
+
+      - version_detail/version1
+        . screen_recording.mov(download the project and run the video to see details)
+        . version1.png (open to see how it looks)
+
+   2. version2 - Shopping Cart
+
+      - version_detail/version1
+        . screen_recording.mov(download the project and run the video to see details)
+        . version2.png (open to see how it looks)
