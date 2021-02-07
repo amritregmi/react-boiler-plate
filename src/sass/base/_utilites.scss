@@ -1,0 +1,12 @@
+.message {
+  color: red;
+
+  &--hidden {
+    visibility: hidden;
+  }
+  &--show {
+    visibility: visible;
+    font-style: oblique;
+    margin-left: 2rem;
+  }
+}

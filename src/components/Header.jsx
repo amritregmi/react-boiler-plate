@@ -15,7 +15,7 @@ const Header = ({ title, onShow, showAdd }) => {
   )
 }
 Header.defaultProps = {
-  title: 'Task Tracker',
+  title: 'Shopping Cart',
 }
 Header.propTypes = {
   title: PropTypes.string,

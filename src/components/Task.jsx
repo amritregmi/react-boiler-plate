@@ -1,19 +1,26 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { FaTimes, FaBell } from 'react-icons/fa'
+import { FaTimes, FaBell, FaCheck } from 'react-icons/fa'
 
-const Task = ({ task, onDelete, onToggle }) => {
+const Task = ({ task, onDelete, onToggle, onComplete }) => {
   return (
-    <div className='task'>
-      <h3>
-        {task.text}
+    <div className={`task ${task.reminder ? 'task--shake' : ''}`}>
+      <h3 className={task.complete && 'task__cross'}>
+        <span>{task.text}</span>
         <FaBell
           onClick={() => {
             onToggle(task.id)
           }}
-          className={`task_FaBell ${task.reminder ? 'task__FaBell--true' : ''}`}
+          className={`task__FaBell ${
+            task.reminder ? 'task__FaBell--true' : ''
+          } ${task.complete ? `task__FaBell--hide` : ''}`}
         />
-
+        <FaCheck
+          className='task__FaCheck'
+          onClick={() => {
+            onComplete(task.id)
+          }}
+        />
         <FaTimes
           className='task__FaTimes'
           onClick={() => {
@@ -21,7 +28,7 @@ const Task = ({ task, onDelete, onToggle }) => {
           }}
         />
       </h3>
-      <p>{task.day}</p>
+      <p className={task.complete && 'task__cross'}>{task.description}</p>
     </div>
   )
 }
