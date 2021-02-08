@@ -1,35 +1,16 @@
 {
   "tasks": [
     {
-      "id": 3,
-      "text": "Chips",
-      "description": "Smiths",
-      "reminder": true,
-      "complete": true
-    },
-    {
-      "text": "Drinks",
-      "description": "Coke, Juice",
-      "reminder": false,
-      "id": 4
-    },
-    {
-      "text": "Milk",
-      "description": "Full Cream",
-      "reminder": false,
-      "id": 5
-    },
-    {
-      "text": "sdf",
-      "description": "",
-      "reminder": false,
-      "id": 6
-    },
-    {
       "text": "sdf",
       "description": "",
       "reminder": true,
       "id": 7
+    },
+    {
+      "text": "Drinks",
+      "description": "coca cola",
+      "reminder": true,
+      "id": 8
     }
   ]
 }
