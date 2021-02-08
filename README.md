@@ -5,7 +5,9 @@
 `eslint`
 `SASS 7-1 architecture`
 `css animations`
-`css mixins`
+`css mixins
+
+`
 
 # To Run This app
 
@@ -53,4 +55,5 @@
 
       - Backed server added (json-server)
       - Features added
-   https://youtu.be/R7W3pdKWm0Y
+   
+ 6. Reference https://youtu.be/R7W3pdKWm0Y 
