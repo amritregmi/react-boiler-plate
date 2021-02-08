@@ -4,8 +4,8 @@
       "id": 3,
       "text": "Chips",
       "description": "Smiths",
-      "reminder": false,
-      "complete": false
+      "reminder": true,
+      "complete": true
     },
     {
       "text": "Drinks",
@@ -18,6 +18,18 @@
       "description": "Full Cream",
       "reminder": false,
       "id": 5
+    },
+    {
+      "text": "sdf",
+      "description": "",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "sdf",
+      "description": "",
+      "reminder": true,
+      "id": 7
     }
   ]
 }
