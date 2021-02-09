@@ -1,4 +1,4 @@
-# React boiler-plate
+# Shopping cart
 
 `vscode setting`
 `prettier`
